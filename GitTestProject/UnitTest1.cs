@@ -7,6 +7,7 @@ public class UnitTest1
     {
         //making a change
         // Making another random change
+        // CI test
     }
 
     [Test]

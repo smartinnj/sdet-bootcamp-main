@@ -35,6 +35,7 @@ jobs:
         run: dotnet --list-sdks
 
       - name: Restore project dependencies
+        working-directory: ./csharp
         run: dotnet restore -p:TargetFramework=${{ matrix.framework }}
 
       - name: Build the project
